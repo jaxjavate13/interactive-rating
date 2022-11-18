@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass',sans-serif;
+    font-size: 15px;
+}
+p {
+    color: hsl(217, 12%, 63%);
+}
+.rating-container {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.content {
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+.img-star img {
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 50%;
+    padding: 0.9em;
+    background-color: hsl(213, 20%, 22%);
+}
+.content h2 {
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+.content p {
+    margin-bottom: 1.5rem;
+}
+.rat-numbers {
+    margin-bottom: 1.5rem;
+}
+.rat-numbers ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.rat-numbers ul li button {
+    color: hsl(217, 12%, 63%);
+    width: 2.8rem;
+    height: 2.8rem;
+    border: none;
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rat-numbers ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.rat-numbers ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+.cta-submit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    letter-spacing: 3px;
+    font-family: 'Overpass',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.cta-submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 400px;
+}
+
+.thank-you p {
+    margin-bottom: 1.5rem;
+}
+.thank-you p.rating {
+    border: none;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 22%);
+    display: inline-block;
+    padding: 10px 15px;
+}
+.thank-you h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1.5rem;
+}
+.hidden {
+    display: none;
+}
+.cta-rateagain {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    letter-spacing: 3px;
+    font-family: 'Overpass',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.cta-rateagain:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
